@@ -1,0 +1,11 @@
+[
+  {
+    "id": "fcce4cb8-a30d-4353-8a10-08c16a7720f7",
+    "createdAt": "2026-03-22T13:24:39.734Z",
+    "name": "테스트 사용자",
+    "company": "리드포지 팀",
+    "email": "demo@example.com",
+    "monthlyLeads": "51-200",
+    "message": "랜딩 전환 데모 확인용 문의입니다."
+  }
+]
