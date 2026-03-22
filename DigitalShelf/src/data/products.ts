@@ -1,0 +1,88 @@
+import type { Product } from "@/types/store";
+
+export const products: Product[] = [
+  {
+    id: "ds-101",
+    slug: "signal-ui-kit",
+    name: "Signal UI Kit",
+    category: "Design",
+    tagline: "B2B SaaS를 위한 밀도 높은 운영형 화면 설계 키트",
+    description:
+      "대시보드, 분석, 관리자 화면을 빠르게 조립할 수 있도록 설계한 프리미엄 Figma 키트입니다. 밀도 있는 테이블, 상태 배지, 데이터 패턴 중심으로 구성되어 있습니다.",
+    price: 89,
+    rating: 4.9,
+    downloads: "2.4k",
+    coverLabel: "OPERATIONS",
+    accent: "from-blue-500 via-cyan-300 to-emerald-200",
+    formats: ["Figma", "Design Tokens", "Docs"],
+    features: [
+      "120개 이상의 실무형 화면 템플릿",
+      "라이트/다크 톤 설계 가이드",
+      "토큰 기반 색상 시스템",
+    ],
+    included: ["대시보드", "CRM", "권한 관리", "빌링", "알림 센터"],
+  },
+  {
+    id: "ds-102",
+    slug: "commerce-motion-pack",
+    name: "Commerce Motion Pack",
+    category: "Code",
+    tagline: "랜딩과 체크아웃 전환에 맞춘 프론트엔드 모션 세트",
+    description:
+      "Next.js 프로젝트에 바로 이식할 수 있는 커머스 전용 모션 패키지입니다. 히어로 등장, 장바구니 전환, 체크아웃 강조 애니메이션을 포함합니다.",
+    price: 64,
+    rating: 4.8,
+    downloads: "1.7k",
+    coverLabel: "FLOW",
+    accent: "from-fuchsia-500 via-rose-300 to-orange-200",
+    formats: ["React", "CSS", "Motion Specs"],
+    features: [
+      "전환율 중심의 모션 프리셋",
+      "가벼운 CSS 애니메이션 기반",
+      "모바일 우선 인터랙션 튜닝",
+    ],
+    included: ["히어로", "상품 카드", "장바구니", "결제 단계"],
+  },
+  {
+    id: "ds-103",
+    slug: "podcast-brand-starter",
+    name: "Podcast Brand Starter",
+    category: "Audio",
+    tagline: "브랜드 오프닝, 배경 루프, 효과음을 한 번에 제공하는 팩",
+    description:
+      "콘텐츠 팀이 빠르게 브랜드드 오디오를 구성할 수 있도록 만든 사운드 번들입니다. 인트로, 전환, 배경 루프가 정리되어 있어 편집 속도를 높여줍니다.",
+    price: 42,
+    rating: 4.7,
+    downloads: "980",
+    coverLabel: "AUDIO",
+    accent: "from-amber-400 via-yellow-200 to-lime-100",
+    formats: ["WAV", "MP3", "License PDF"],
+    features: [
+      "인트로/아웃트로 사운드 포함",
+      "상업용 사용 가이드 제공",
+      "에피소드 전환용 효과음 구성",
+    ],
+    included: ["브랜드 스팅", "배경 루프", "효과음", "라이선스 문서"],
+  },
+  {
+    id: "ds-104",
+    slug: "launch-bundle-pro",
+    name: "Launch Bundle Pro",
+    category: "Bundle",
+    tagline: "신규 제품 런칭에 필요한 디자인, 카피, 모션 자산 통합 번들",
+    description:
+      "제품 출시 페이지와 캠페인 제작을 한 번에 진행할 수 있도록 구성한 번들입니다. 디자인 템플릿, 문구 구조, 모션 가이드가 함께 제공됩니다.",
+    price: 129,
+    rating: 5,
+    downloads: "3.1k",
+    coverLabel: "BUNDLE",
+    accent: "from-slate-200 via-sky-100 to-blue-50",
+    formats: ["Figma", "Notion", "React", "PDF"],
+    features: [
+      "출시 랜딩 구조 템플릿",
+      "성과형 카피 프레임워크",
+      "런칭 체크리스트 포함",
+    ],
+    included: ["랜딩 키트", "모션팩", "카피 가이드", "온보딩 문서"],
+  },
+];
